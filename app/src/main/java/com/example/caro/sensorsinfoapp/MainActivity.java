@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 1; i < mList.size(); i++) {
             sensorTextView.setVisibility(View.VISIBLE);
-            sensorTextView.append("\n" + mList.get(i).getName() + "\n" + mList.get(i).getVendor() + "\n" + mList.get(i).getVersion());
+            sensorTextView.append("\n Nombre: " + mList.get(i).getName() + "\n Vendor: " + mList.get(i).getVendor() + "\n version: " + mList.get(i).getVersion()+ "\n");
         }
     }
 
